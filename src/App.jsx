@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   const [role, setRole] = useState("");
-  const [token, setToken] = useState("x");
+  const [token, setToken] = useState("");
 
   const [products, setProducts] = useState([]);
   const [carts, setCarts] = useState([]);
