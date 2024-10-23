@@ -1,0 +1,49 @@
+.Component-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    min-width: 800px;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: 800px;
+    background-image: url(/img/th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.App-title {
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+  
+.Component-title {
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    
+      
+}
+.Counter-container{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0.5rem;
+}
+
+.Counter-2{
+    grid-column: span 2;
+}
+
+.Counter-3 {
+    grid-column: span 3;
+}

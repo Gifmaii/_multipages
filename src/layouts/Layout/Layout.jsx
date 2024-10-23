@@ -1,0 +1,22 @@
+import { Outlet } from "react-router";
+
+
+import Header from "../Header/Header";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+
+import "./Layout.css";
+
+
+function Layout({ products, carts, tap, setTap,setToken}) {
+  return (
+    <div>
+      <Header />
+      <Navbar  tap={tap} setTap={setTap} products={products} carts={carts} setToken={setToken}/>
+      <Outlet />
+      <Footer />
+    </div>
+  );
+}
+
+export default Layout;

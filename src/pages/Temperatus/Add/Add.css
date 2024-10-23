@@ -1,0 +1,25 @@
+.Add-container {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    
+    background-color: orangered;
+    margin-bottom:  0.5rem ;
+}
+
+.Add-title {
+    color: darkblue;
+}
+
+.counter-containers {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 0.5rem;
+}
+
+.add-display {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    
+}

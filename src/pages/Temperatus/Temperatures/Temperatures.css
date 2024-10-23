@@ -1,0 +1,22 @@
+.container-Temperatures {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-bottom:  0.5rem ;
+    background-color: orangered;
+}
+
+.Temperatures-title {
+    color: darkblue;
+}
+
+.Temperatures-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.variable-container {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
