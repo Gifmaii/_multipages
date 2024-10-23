@@ -5,7 +5,7 @@ function Home() {
         <div className='home-container'>
             
             <div className="img-container">
-                <img src="/img/gifmairee.jpg" 
+                <img src="img/gifmairee.jpg" 
                 className="img-fluid" alt="" />
             </div>
             <div className="text-container">
